@@ -13,5 +13,11 @@ kibana UI will be accessible through https://<your-ip>.
 
 Also there is a known issue with this installer which comes from the bug in Logstash and Elasticsearch packages in official repositories. If you install then remove and then install the packages again, you may experience problems with starting Logstash and Elasticsearch and you may have to delete the leftover files manually. We hope this bug will be fixed soon by Elastic.
 
+to install packages with their dependencies run:
+
+yum localinstall aris-elk-installer-prerequisites-0.1-1.el6.x86_64.rpm
+yum localinstall aris-elk-installer-0.1-1.el6.x86_64.rpm
+
 Kianoosh Kashefi
+
 Arissystem
