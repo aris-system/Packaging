@@ -16,8 +16,8 @@ Also there is a known issue with this installer which comes from the bug in Logs
 to install packages with their dependencies run:
 
 yum localinstall aris-elk-installer-prerequisites-0.1-1.el6.x86_64.rpm
+
 yum localinstall aris-elk-installer-0.1-1.el6.x86_64.rpm
 
-Kianoosh Kashefi
-
+Kianoosh Kashefi 
 Arissystem
